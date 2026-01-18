@@ -1,4 +1,4 @@
-import java.util.*;
+import java.util.Scanner;
 
 public class Grader {
     public static void main(String[] args) {
@@ -20,4 +20,5 @@ public class Grader {
         }
     }
 }
+
 
