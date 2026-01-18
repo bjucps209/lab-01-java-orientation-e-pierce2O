@@ -1,10 +1,10 @@
 import java.util.*;
+
 public class Grader {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         int grade;
         int numStudents = Integer.parseInt(scan.nextLine()); 
-        // System.out.println(grade);
         for (int i = 0; i < numStudents; i++) {
             grade = Integer.parseInt(scan.nextLine());
             if (grade < 38) {
@@ -20,3 +20,4 @@ public class Grader {
         }
     }
 }
+
